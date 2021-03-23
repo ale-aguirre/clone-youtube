@@ -1,0 +1,37 @@
+.icono_container {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.icono_container:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.icono_container:hover > .icono {
+  color: red;
+}
+.icono_container:hover > .icono_title {
+  font-weight: bold;
+}
+
+.icono {
+  color: #606060;
+  font-size: large !important;
+}
+.icono_title {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.icono_container.selected {
+  background-color: lightgray;
+}
+.icono_container.selected > .icono {
+  color: red;
+}
+.icono_container.selected > .icono_title {
+  font-weight: bold;
+}
