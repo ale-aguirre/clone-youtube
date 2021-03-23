@@ -8,9 +8,11 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app">
-        <Route path="/" component={Navbar}/>
-        <Route path="/" component={Sidebar}/>
-        <Route path="/" component={VideosRecomendados}/>
+        <Route path="/" component={Navbar} />
+        <div className="app_page">
+          <Route path="/" component={Sidebar} />
+          <Route path="/" component={VideosRecomendados} />
+        </div>
       </div>
     </BrowserRouter>
   );

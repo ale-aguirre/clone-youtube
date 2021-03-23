@@ -1,0 +1,10 @@
+.sidebar {
+  flex: 0.2;
+  /* toma el 20% del div */
+}
+.sidebar_separator {
+  border: 0;
+  height: 0.5px;
+  background-color: gray;
+  margin: 12px 0px;
+}
